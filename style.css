@@ -6,7 +6,6 @@ body{
 
 .links{
     background-color: black;
-    
     position: fixed;
     width: 9999px;
     z-index: 2;
@@ -23,28 +22,26 @@ body{
     
 }
 
-.links a{
+.links a, li{
     text-decoration: none;
     color: white;
-    margin: 30px;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
     font-weight: bold;
-    
-   
-}
-
-.links li{
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     color: white;
     display: inline-block;
     
-
+   
 }
+
 .links li:hover{
     background-color: green;
 }
 
 #align{
-    margin-left: 450px;
+    margin-left: 550px;
     
 
 }
@@ -58,29 +55,26 @@ body{
     
     
 }
-.picture img{
+.session1 img{
     width: 300px;
     border-radius: 50%;
-    border-color: solid rgb(18, 66, 14);
-        
-
-}
-
-.session1 .picture {
+    border-style: double;
+    border-color: green;
+    border-width: 10px;
     position: absolute;
     z-index: 1;
     left: 180px;
-    top: 200px;
-    border-color: solid white;
-    border-width: ;
+    top: 180px;
+    
+        
 }
 
 .about-name{
    position: absolute;
    font-size: 40px;
    top: 10px;
-   left: 50px;
-   color:white;
+   left: 60px;
+   color: white;
    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 
 }
@@ -90,6 +84,7 @@ body{
     top: 150px;
     color: white;
     font-size: 20px;
+    font-weight: bold;
     width: 400px;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 
